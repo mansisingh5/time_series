@@ -1,5 +1,7 @@
 Time Series Analysis of UPI Transaction.
+
 Overview
+
 This project explores Time Series Analysis using UPI transaction data from the Reserve Bank of India (RBI). The goal is to analyze trends, seasonality, and patterns in the dataset and develop predictive models using ARIMA and SARIMA techniques.
 Dataset
 The dataset consists of UPI transactions with the following attributes:
