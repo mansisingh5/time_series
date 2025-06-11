@@ -20,7 +20,6 @@ Dickey-Fuller Test for stationarity check.
 Autocorrelation & Partial Autocorrelation (ACF & PACF) to determine time-dependent relationships.
 3. Time Series Modeling
 ARIMA (AutoRegressive Integrated Moving Average) model for short-term forecasting.
-SARIMA (Seasonal ARIMA) model to account for seasonal effects.
 Hyperparameter tuning using pmdarima.auto_arima.
 Residual Analysis: Checking model assumptions and performance.
 4. Model Validation & Forecasting
@@ -29,9 +28,7 @@ Ljung-Box test for residual independence.
 Forecasting future UPI transaction volumes and values.
 Results
 ARIMA(3,1,1) and ARIMA(2,1,1) were the best models for transaction Volume and Value, respectively.
-SARIMA(1,0,3)(1,1,1,30) captured seasonality in UPI transactions.
 Ljung-Box test confirmed residual independence, indicating a good model fit.
-Technologies Used
 Python (Pandas, NumPy, Statsmodels, Matplotlib, Seaborn)
 Time Series Modeling (ARIMA, SARIMA)
 Jupyter Notebook for analysis
